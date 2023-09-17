@@ -1,0 +1,1 @@
+/home/cc/mambaforge/envs/gromacs_2023.1
