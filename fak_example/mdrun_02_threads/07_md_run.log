@@ -551,3 +551,16 @@ Writing checkpoint, step 27840 at Sun Sep 17 22:10:39 2023
    Constr. rmsd
     3.20224e-06
 
+           Step           Time
+          35000       70.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.21475e+03    8.54954e+03    1.09196e+04    5.17329e+02    3.97549e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.89166e+04    8.47272e+04   -8.09042e+05    2.49879e+03   -6.55723e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.26444e+05   -5.29279e+05   -5.27810e+05    3.00425e+02   -7.61137e+01
+   Constr. rmsd
+    2.93037e-06
+
