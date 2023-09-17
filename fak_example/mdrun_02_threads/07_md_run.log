@@ -496,3 +496,16 @@ Started mdrun on rank 0 Sun Sep 17 21:55:38 2023
    Constr. rmsd
     3.09278e-06
 
+           Step           Time
+          15000       30.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.36473e+03    8.46794e+03    1.10734e+04    4.90328e+02    3.96998e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.84797e+04    8.66632e+04   -8.08988e+05    2.59493e+03   -6.53884e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.27249e+05   -5.26635e+05   -5.29088e+05    3.02339e+02    9.31060e+01
+   Constr. rmsd
+    3.04399e-06
+
