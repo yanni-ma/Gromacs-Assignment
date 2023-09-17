@@ -509,3 +509,45 @@ Started mdrun on rank 0 Sun Sep 17 21:55:38 2023
    Constr. rmsd
     3.04399e-06
 
+           Step           Time
+          20000       40.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.23983e+03    8.55343e+03    1.10301e+04    4.57838e+02    4.00440e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.87112e+04    8.40894e+04   -8.07741e+05    2.48614e+03   -6.55169e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.25215e+05   -5.29954e+05   -5.28586e+05    2.97505e+02   -2.13132e+02
+   Constr. rmsd
+    3.10709e-06
+
+           Step           Time
+          25000       50.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.30282e+03    8.79328e+03    1.11466e+04    5.10988e+02    3.97253e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.87224e+04    8.54566e+04   -8.09085e+05    2.49657e+03   -6.54683e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.26544e+05   -5.28139e+05   -5.28381e+05    3.00663e+02    6.61606e+01
+   Constr. rmsd
+    3.14656e-06
+
+Writing checkpoint, step 27840 at Sun Sep 17 22:10:39 2023
+
+
+           Step           Time
+          30000       60.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.15219e+03    8.62558e+03    1.10207e+04    5.15383e+02    4.06245e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.88345e+04    8.46562e+04   -8.09499e+05    2.48377e+03   -6.56148e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.26965e+05   -5.29183e+05   -5.28044e+05    3.01665e+02   -8.93819e+01
+   Constr. rmsd
+    3.20224e-06
+
