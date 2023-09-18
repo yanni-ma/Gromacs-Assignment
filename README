@@ -6,6 +6,7 @@ The "my_mounting_point" directory under /home/cc is the mounting
 point to the Chameleon object store, so that you can access the 
 object store as a file system. 
 
+
 A mounting tool known as cc-cloudfuse has been installed. You can 
 use cc-cloudfuse to mount/unmout the Chameleon object store.
 
