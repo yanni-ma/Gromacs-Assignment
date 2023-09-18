@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1694987931,,"wq"
+|2,0,1695055344,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,22 +25,34 @@
 # Registers:
 
 # File marks:
-'0  1  10  ~/.gitignore
-|4,48,1,10,1694987931,"~/.gitignore"
+'0  3  0  ~/README
+|4,48,3,0,1695055344,"~/README"
 '1  1  10  ~/.gitignore
-|4,49,1,10,1694987100,"~/.gitignore"
+|4,49,1,10,1694987931,"~/.gitignore"
 '2  1  10  ~/.gitignore
-|4,50,1,10,1694987094,"~/.gitignore"
+|4,50,1,10,1694987100,"~/.gitignore"
 '3  1  10  ~/.gitignore
 |4,51,1,10,1694987094,"~/.gitignore"
-'4  13  10  ~/run_all.sh
-|4,52,13,10,1694983968,"~/run_all.sh"
+'4  1  10  ~/.gitignore
+|4,52,1,10,1694987094,"~/.gitignore"
+'5  13  10  ~/run_all.sh
+|4,53,13,10,1694983968,"~/run_all.sh"
 
 # Jumplist (newest first):
+-'  3  0  ~/README
+|4,39,3,0,1695055344,"~/README"
+-'  1  0  ~/README
+|4,39,1,0,1695055315,"~/README"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1694987931,"~/.gitignore"
 -'  1  10  ~/.gitignore
 |4,39,1,10,1694987931,"~/.gitignore"
 -'  1  10  ~/.gitignore
 |4,39,1,10,1694987100,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1694987100,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1694987094,"~/.gitignore"
 -'  1  10  ~/.gitignore
 |4,39,1,10,1694987094,"~/.gitignore"
 -'  13  10  ~/run_all.sh
@@ -59,6 +71,38 @@
 |4,39,13,10,1694983968,"~/run_all.sh"
 -'  13  10  ~/run_all.sh
 |4,39,13,10,1694983968,"~/run_all.sh"
+-'  13  10  ~/run_all.sh
+|4,39,13,10,1694983968,"~/run_all.sh"
+-'  13  10  ~/run_all.sh
+|4,39,13,10,1694983968,"~/run_all.sh"
+-'  13  10  ~/run_all.sh
+|4,39,13,10,1694983968,"~/run_all.sh"
+-'  13  10  ~/run_all.sh
+|4,39,13,10,1694983968,"~/run_all.sh"
+-'  13  10  ~/run_all.sh
+|4,39,13,10,1694983968,"~/run_all.sh"
+-'  13  10  ~/run_all.sh
+|4,39,13,10,1694983968,"~/run_all.sh"
+-'  13  10  ~/run_all.sh
+|4,39,13,10,1694983968,"~/run_all.sh"
+-'  13  10  ~/run_all.sh
+|4,39,13,10,1694983968,"~/run_all.sh"
+-'  1  0  ~/run_all.sh
+|4,39,1,0,1694983926,"~/run_all.sh"
+-'  1  0  ~/run_all.sh
+|4,39,1,0,1694983926,"~/run_all.sh"
+-'  1  0  ~/run_all.sh
+|4,39,1,0,1694983926,"~/run_all.sh"
+-'  1  0  ~/run_all.sh
+|4,39,1,0,1694983926,"~/run_all.sh"
+-'  1  0  ~/run_all.sh
+|4,39,1,0,1694983926,"~/run_all.sh"
+-'  1  0  ~/run_all.sh
+|4,39,1,0,1694983926,"~/run_all.sh"
+-'  1  0  ~/run_all.sh
+|4,39,1,0,1694983926,"~/run_all.sh"
+-'  1  0  ~/run_all.sh
+|4,39,1,0,1694983926,"~/run_all.sh"
 -'  1  0  ~/run_all.sh
 |4,39,1,0,1694983926,"~/run_all.sh"
 -'  1  0  ~/run_all.sh
@@ -77,6 +121,13 @@
 |4,39,1,0,1694983926,"~/run_all.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/README
+	*	1695055343	0
+	"	3	0
+	^	3	0
+	.	2	0
+	+	2	0
 
 > ~/.gitignore
 	*	1694987924	0

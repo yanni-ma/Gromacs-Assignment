@@ -1,4 +1,6 @@
-cc-cloudfuse
+cc-cloudfuse 
+
+
 ___________________________________________________________________
 The "my_mounting_point" directory under /home/cc is the mounting
 point to the Chameleon object store, so that you can access the 
