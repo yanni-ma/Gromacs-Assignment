@@ -564,3 +564,161 @@ Writing checkpoint, step 27840 at Sun Sep 17 22:10:39 2023
    Constr. rmsd
     2.93037e-06
 
+           Step           Time
+          40000       80.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.02710e+03    8.61281e+03    1.11956e+04    5.39744e+02    4.13520e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.88159e+04    8.52780e+04   -8.08893e+05    2.46694e+03   -6.54822e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.26686e+05   -5.28136e+05   -5.27612e+05    3.01001e+02    3.05531e+02
+   Constr. rmsd
+    3.08139e-06
+
+           Step           Time
+          45000       90.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.36945e+03    8.37704e+03    1.10746e+04    4.78811e+02    4.02586e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.89002e+04    8.64574e+04   -8.12281e+05    2.49755e+03   -6.57100e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.26032e+05   -5.31068e+05   -5.27072e+05    2.99447e+02    4.34156e+01
+   Constr. rmsd
+    3.57389e-06
+
+           Step           Time
+          50000      100.00000
+
+Writing checkpoint, step 50000 at Sun Sep 17 22:22:36 2023
+
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.23595e+03    8.55394e+03    1.10399e+04    4.80586e+02    3.98107e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.85184e+04    8.47301e+04   -8.08548e+05    2.54335e+03   -6.55465e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.25972e+05   -5.29493e+05   -5.26757e+05    2.99304e+02   -2.34957e+02
+   Constr. rmsd
+    3.29924e-06
+
+
+Energy conservation over simulation part #1 of length 100 ps, time 0 to 100 ps
+  Conserved energy drift: 6.36e-04 kJ/mol/ps per atom
+
+
+	<======  ###############  ==>
+	<====  A V E R A G E S  ====>
+	<==  ###############  ======>
+
+	Statistics over 50001 steps using 501 frames
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih. Per. Imp. Dih.          LJ-14
+    3.24483e+03    8.61313e+03    1.10227e+04    5.10005e+02    3.99940e+03
+     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential
+    3.86689e+04    8.52791e+04   -8.09284e+05    2.52076e+03   -6.55425e+05
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pressure (bar)
+    1.26284e+05   -5.29141e+05   -5.28366e+05    3.00046e+02    6.49043e+00
+   Constr. rmsd
+    0.00000e+00
+
+          Box-X          Box-Y          Box-Z
+    8.66278e+00    8.16734e+00    7.07313e+00
+
+   Total Virial (kJ/mol)
+    4.19834e+04    1.60375e+01   -5.70527e+01
+    1.56203e+01    4.18585e+04   -5.82034e+01
+   -5.80691e+01   -5.81289e+01    4.21658e+04
+
+   Pressure (bar)
+    9.70148e+00   -5.26660e-01    1.10437e+00
+   -4.98971e-01    1.27332e+01    4.63233e+00
+    1.17184e+00    4.62740e+00   -2.96343e+00
+
+T-Protein_OtherT-Water_and_ions
+    3.00048e+02    3.00046e+02
+
+
+	M E G A - F L O P S   A C C O U N T I N G
+
+ NB=Group-cutoff nonbonded kernels    NxN=N-by-N cluster Verlet kernels
+ RF=Reaction-Field  VdW=Van der Waals  QSTab=quadratic-spline table
+ W3=SPC/TIP3p  W4=TIP4p (single or pairs)
+ V&F=Potential and force  V=Potential only  F=Force only
+
+ Computing:                               M-Number         M-Flops  % Flops
+-----------------------------------------------------------------------------
+ Pair Search distance check           16622.721600      149604.494     0.1
+ NxN Ewald Elec. + LJ [F]           1201072.777616    93683676.654    58.4
+ NxN Ewald Elec. + LJ [V&F]           12156.628992     1568205.140     1.0
+ NxN Ewald Elec. [F]                 977536.763760    59629742.589    37.2
+ NxN Ewald Elec. [V&F]                 9893.033056      831014.777     0.5
+ 1,4 nonbonded interactions             550.111002       49509.990     0.0
+ Calc Weights                          7432.948656      267586.152     0.2
+ Spread Q Bspline                    158569.571328      317139.143     0.2
+ Gather F Bspline                    158569.571328      951417.428     0.6
+ 3D-FFT                              305965.419186     2447723.353     1.5
+ Solve PME                              156.803136       10035.401     0.0
+ Reset In Box                            30.970000          92.910     0.0
+ CG-CoM                                  31.019552          93.059     0.0
+ Bonds                                  106.352127        6274.775     0.0
+ Angles                                 382.457649       64252.885     0.0
+ Propers                                576.111522      131929.539     0.1
+ Impropers                               41.500830        8632.173     0.0
+ Virial                                  49.646597         893.639     0.0
+ Stop-CM                                 24.825552         248.256     0.0
+ Calc-Ekin                              495.619104       13381.716     0.0
+ Lincs                                  104.852097        6291.126     0.0
+ Lincs-Mat                              562.211244        2248.845     0.0
+ Constraint-V                          2475.499509       22279.496     0.0
+ Constraint-Vir                          47.459412        1139.026     0.0
+ Settle                                 755.265105      279448.089     0.2
+-----------------------------------------------------------------------------
+ Total                                               160442860.653   100.0
+-----------------------------------------------------------------------------
+
+
+    D O M A I N   D E C O M P O S I T I O N   S T A T I S T I C S
+
+ av. #atoms communicated per step for force:  2 x 0.0
+ av. #atoms communicated per step for LINCS:  2 x 0.0
+
+
+      R E A L   C Y C L E   A N D   T I M E   A C C O U N T I N G
+
+On 1 MPI rank, each using 2 OpenMP threads
+
+ Activity:              Num   Num      Call    Wall time         Giga-Cycles
+                        Ranks Threads  Count      (s)         total sum    %
+--------------------------------------------------------------------------------
+ Domain decomp.            1    2        625       3.851         19.979   0.2
+ Neighbor search           1    2        626      23.598        122.417   1.5
+ Force                     1    2      50001    1436.156       7450.247  88.7
+ PME mesh                  1    2      50001     129.363        671.088   8.0
+ NB X/F buffer ops.        1    2      99376       6.287         32.616   0.4
+ Write traj.               1    2         12       0.123          0.640   0.0
+ Update                    1    2      50001       4.539         23.548   0.3
+ Constraints               1    2      50001      12.683         65.797   0.8
+ Rest                                              1.922          9.973   0.1
+--------------------------------------------------------------------------------
+ Total                                          1618.524       8396.305 100.0
+--------------------------------------------------------------------------------
+ Breakdown of PME mesh activities
+--------------------------------------------------------------------------------
+ PME spread                1    2      50001      54.409        282.255   3.4
+ PME gather                1    2      50001      37.108        192.500   2.3
+ PME 3D-FFT                1    2     100002      33.584        174.220   2.1
+ PME solve Elec            1    2      50001       4.133         21.442   0.3
+--------------------------------------------------------------------------------
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     3237.047     1618.524      200.0
+                 (ns/day)    (hour/ns)
+Performance:        5.338        4.496
+Finished mdrun on rank 0 Sun Sep 17 22:22:36 2023
+
