@@ -450,3 +450,79 @@ scp tp3@192.5.87.59:~/07_md_run_FITTED.pdb ~/OneDrive/VIP/fall2023VIP/07_md_run_
 user
 scp cc@192.5.87.59:~/07_md_run_FITTED.pdb ~/OneDrive/VIP/fall2023VIP/07_md_run_FITTED.pdb
 scp cc@192.5.87.59:~/07_md_run_FITTED.pdb OneDrive/VIP/fall2023VIP/07_md_run_FITTED.pdb
+ls
+cd lig-only/mdrun_02_threads/
+ls
+pwd
+cd fak_example/
+ls
+cd mdrun_02_threads/
+ls
+mamba activate gromacs_2023.1
+gmx trjconv -f 07_md_run.xtc -s 07_md_run.tpr -n ../index.ndx -pbc mol -ur compact -o 07_md_run.pdb
+gmx trjconv -f 07_md_run.pdb -s 07_md_run.tpr -n ../index.ndx -fit rot+trans -o 07_md_run_FITTED.pdb
+ls
+git-filter-repo --version
+git filter-repo --force --commit-callback "
+    if commit.author_email == b'yannima03.gmail.com':
+        commit.author_email = b'yannima03@gmail.com'
+        commit.author_name = b'yannima03'
+        commit.committer_email = b'yannima03@gmail.com'
+        commit.committer_name = b'yannima03'
+"
+git status
+git remote
+git remote add https://github.com/yanni-ma/Gromacs-Assignment.git
+git remote add origin https://github.com/yanni-ma/Gromacs-Assignment.git
+git remote
+git status
+git add . 
+git commit -m "fixing commits"; git push;
+git commit -m "fixing commits"; git push --set-upstream origin master;
+git commit -m "fixing commits"; git push --set-upstream origin master --force;
+git status
+git status
+git add . 
+git commit -m "morning update"; git push
+git status
+git config user.name
+git config user.email
+git status
+git config user.name "yanni-ma"
+ls
+cat README 
+vim README 
+git commit -m "test"; git push
+git add .
+git commit -m "test"; git push
+cat .gitignore
+ls
+cd fak_example/
+ls
+cd mdrun_01_threads/
+more 07_md_run.log 
+clear
+cd ../../lig-only/
+ls
+mkdir mdrun_01_threads
+mamba activate gromacs_2023.1
+which gmx
+clear
+cd mdrun_01_threads/
+clear
+gmx mdrun -v -nt 1 -deffnm 07_md_run & disown
+cp ../07_md_run.tpr ./
+ls
+gmx mdrun -v -nt 1 -deffnm 07_md_run & disown
+job -l
+disown
+jobs
+clear
+jobs
+htop
+cd lig-only/mdrun_01_threads/
+ls
+more 07_md_run.log 
+ls
+tar -cf mdrun_logs.tar ./fak_example/mdrun_??_threads/07_md_run.log lig-only/mdrun_??_threads/07_md_run.log
+gzip mdrun_logs.tar
