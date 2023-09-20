@@ -526,3 +526,8 @@ more 07_md_run.log
 ls
 tar -cf mdrun_logs.tar ./fak_example/mdrun_??_threads/07_md_run.log lig-only/mdrun_??_threads/07_md_run.log
 gzip mdrun_logs.tar
+git status
+git config user.email
+git add . 
+git commit -m "all runs finished"; git push
+git status
